@@ -1,0 +1,268 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+:root{
+    --primary-color: #FF5400;
+    --secondary-olor:#131318;
+    --paragrap-color: #5A5A5D;
+}
+p{
+    color: var(--paragrap-color);
+    padding-top: 25px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+h1, h2, h3, h4{
+    color: var(--secondary-olor);
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: space-between;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+body{
+    padding: 0 50px;
+}
+/* nav section */
+.nav-container{
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.logo{
+    gap: 25px;
+    font-size: 2.1em;
+    font-weight: 800;
+}
+.logo-color{
+    color: var(--primary-color);
+}
+.nav ul li{
+    list-style: none;
+}
+.nav ul li a{
+    text-decoration: none;
+    color:#424247;
+    font-size: 18px;
+    padding-left: 35px;
+}
+.nav ul li:first-child a{
+    color: var(--primary-color);
+}
+
+/* travel-container */
+
+.travel-container{
+    background-image: url('../Images/trabel.png');
+    text-align: center;
+    border-radius: 15px;
+    background-size: 100%;
+    height: 500px;
+}
+.travel-container h1{
+    padding-top: 100px;
+    padding-bottom: 25px;
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+.travel-container p{
+    padding:0 250px;
+    color: #FFF;
+    line-height: 26px;
+}
+.form{
+    margin-top: 50px;
+}
+.form form{
+    display: inline-block;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.30);
+}
+button{
+    padding: 15px 35px;
+    background-color: var(--primary-color);
+    border-radius: 8px;
+    border: none;
+
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 800;
+    }
+.t-btn{
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.t-btn .btn-icon{
+    padding: 5px;
+    margin-bottom: -10px;
+}
+.form input, .form select{
+    padding: 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* main start  */
+
+.popular-tours-container{
+    margin-top: 50px;
+}
+.popular-tour-details{
+    width: 50%;
+}
+.popular-tour-details h2{
+    font-size: 40px;
+    font-weight: 800;
+}
+.popular-tour-details p{
+    margin-bottom: 25px;
+}
+.popular-tour-details ul{
+    padding: 0 100px 0 20px;
+}
+
+.popular-tour-img{
+    width: 50%;
+}
+.popular-tour-img img{
+    padding: 0 10px;
+}
+
+.destinations-part-container{
+    margin-top: 50px;
+    text-align: center;
+}
+.destinations-part-container h2{
+    margin-bottom: 25px;
+    font-size: 40px;
+    font-weight: 800;
+}
+.destinations-part-container p{
+    padding: 0 200px;
+    margin-bottom: 50px;
+    line-height: 26px;
+}
+.destination-img{
+    margin-bottom: 20px;
+}
+
+.choose-us-container{
+    margin-top: 50px;
+}
+.choose-us-container h2{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.choose-us-container>p{
+    padding: 0 140px;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.info1, .info2, .info3{
+    width: 50%;
+    padding: 20px;
+
+    border-radius: 8px;
+}
+.info-container2{
+    margin-top: 50px;
+}
+.info-container2 .info3{
+    margin: 0 auto;
+}
+.info1{
+    background: #FBB56333;
+}
+.info2{   
+    background: #29CEF633;
+}
+.info3{
+    background:  #FBB56333;
+}
+
+.info1 h2, .info2 h2, .info3 h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+.info1 p, .info2 p, .info3 p{
+    padding-right: 30px;
+}
+.deals-dicount-container{}
+.sartorini-tour1{}
+.card{}
+.sartorini-tour2{}
+
+.perfect-place-contai{}
+.perfect-place-text{}
+
+.newslatter-container{}
+.newslatterperfect-place-text{}
+.from2{}
+.newslatter-img{}
+.save-up{}
+
+.footer-logo{}
+.logo-color{}
+.social-icon{}
+
+
+
+
+
+
+.d-none{
+    display: none;
+}
+
+
+
+/* mobail devices  */
+
+@media screen and (max-width:600px) {
+    .flex{
+        flex-direction: column;
+    }
+    .popular-tour-img img{
+        padding: 0;
+    }
+    .popular-tour-details ul{
+        padding: 0 20px;
+    }
+    .destinations-part-container p, .choose-us-container>p{
+        padding: 0 25px;
+    }
+    .container h2, h3, h4 {
+        font-size: 20px;
+    }
+    .destination-img img{
+        width:max-content;
+    }
+    p{
+        font-size: 14px;
+    }
+    
+    .info1, .info2, .info3{
+        width: 100%;
+        padding: 20px;
+    }
+    .info-container2 .info3{
+        margin: 0;
+    }
+}

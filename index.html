@@ -4,8 +4,216 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdullah Travel</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
 </head>
 <body>
-    <h1>hello World</h1>
+    <!-- heder start -->
+    <header class="d-none">
+        <div class="container">
+            <div class="nav-container flex">
+                <div class="logo flex">
+                    <img src="./Images/logo.png" alt="">
+                    <h2>ABdullah <span  class="logo-color">Travel</span> </h2>
+                </div>
+                <div class="nav">
+                    <ul class="flex">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Packages</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="travel-container">
+                <h1>Explore Your Travel</h1>
+                <p>
+                    Dolor sit amet consectetur. Nullam suspendisse vitae ultricies dolor adipiscing. In et odio enim ac quis sapien urna eu phasellus.
+                </p>
+                <div class="form">
+                    <form action="" class="flex">
+                        <input type="text" placeholder="Where go" name="" id="">
+                        <select name="" id="">
+                            <option value="">When</option>
+                            <option value="bangladesh">Bangladesh</option>
+                            <option value="srilanka">Srilanka</option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Select Type</option>
+                            <option value="mountain">Mountain</option>
+                            <option value="rever">Rever</option>
+                        </select>
+                        <button class="t-btn"><svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M19 19L13.803 13.803M13.803 13.803C15.2096 12.3965 15.9998 10.4887 15.9998 8.49955C15.9998 6.51035 15.2096 4.60262 13.803 3.19605C12.3964 1.78947 10.4887 0.999268 8.4995 0.999268C6.51031 0.999268 4.60258 1.78947 3.196 3.19605C1.78943 4.60262 0.999222 6.51035 0.999222 8.49955C0.999222 10.4887 1.78943 12.3965 3.196 13.803C4.60258 15.2096 6.51031 15.9998 8.4995 15.9998C10.4887 15.9998 12.3964 15.2096 13.803 13.803Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>Find Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- heder end -->
+    <main>
+        <div class="container">
+            <!-- popular tours end -->
+            <div class="popular-tours-container flex d-none">
+                <div class="popular-tour-details">
+                    <h2>Our Popular Tours</h2>
+                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                    <ul>
+                        <li>Tempus euismod lacus mauris dignissim quis in ultrices. Magna nullam odio neque diam. Sociis erat at.</li>
+                        <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                        <li> Accumsan eget et turpis praesent lorem egestas enim elit bibendum. Risus at in.</li>
+                    </ul>
+                    <p>Amet consectetur. Vulputate commodo felis molestie Risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. Id bibendum nunc senectus semper tincidunt. </p>
+                    <button>Read More</button>
+                </div>
+                <div class="popular-tour-img">
+                    <img src="./Images/tours.png" alt="">
+                </div>
+            </div>
+            <!-- popular tours end -->
+
+            <!-- Choose Your Destination start -->
+            <div class="destinations-part-container d-none">
+                <h2>Choose Your Destination</h2>
+                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                <div class="destination-img flex">
+                    <div>
+                        <img src="./Images/maldives.png" alt="maldives">
+                    </div>
+                    <div>
+                        <img src="./Images/indonesia.png" alt="indonesia">
+                    </div>
+                </div>
+                <div class="destination-img flex">
+                    <div>
+                        <img src="./Images/srilanka.png" alt="srilanka">
+                    </div>
+                    <div>
+                        <img src="./Images/nort-amerika.png" alt="nort-amerika">
+                    </div>
+                    <div>
+                        <img src="./Images/kasmir.png" alt="kasmir">
+                    </div>
+                </div>
+                <div class="destination-img flex">
+                    <div>
+                        <img src="./Images/bangladesh.png" alt="bangladesh">
+                    </div>
+                    <div>
+                        <img src="./Images/bandarbon.png" alt="bandarbon">
+                    </div>
+                </div>
+            </div>
+            <!-- Choose Your Destination end -->
+
+            <!-- Why Choose Us part start  -->
+            <div class="choose-us-container ">
+                <h2>Why Choose Us</h2>
+                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                <div class="info-container1 flex">
+                    <div class="info1">
+                        <!-- icon lagbe -->
+                        <h4>Handpicked Hotels</h4>
+                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                    </div>
+                    <div class="info2">
+                        <!-- icon lagbe -->
+                        <h4>World Class Service</h4>
+                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                    </div>
+                </div>
+                <div class="info-container2 flex">
+                    <div class="info3">
+                        <!-- icon lagbe -->
+                        <h4>Best Price Guarantee</h4>
+                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque aliquet. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Why Choose Us part end  -->
+
+            <!-- deals and discount part start  -->
+            <div class="deals-dicount-container d-none">
+                <h2>Deals & Discounts</h2>
+                <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales dictumst nec nibh pellentesque.</p>
+                <div class="sartorini-tour1">
+                    <div class="card">
+                        <p>7 Day / 6 Night Max : 10 Malaysia</p>
+                        <h3>Tour To Satorini</h3>
+                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                        <h4>Price: $1300-$1500</h4>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+                <div class="sartorini-tour2">
+                    <div class="card">
+                        <p>7 Day / 6 Night Max : 10 Malaysia</p>
+                        <h3>Tour To Satorini</h3>
+                        <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. Habitant adipiscing.</p>
+                        <h4>Price: $1300-$1500</h4>
+                        <button>Book Now</button>
+                    </div>
+                </div>
+                <button>See All Packages</button>
+            </div>
+            <!-- deals and discount part end  -->
+
+            <!-- perfect place part start  -->
+            <div class="perfect-place-container d-none">
+                <div class="perfect-place-text">
+                    <h2>A Simple Perfect Place To Get Lost</h2>
+                    <p>Amet consectetur. Vulputate commodo felis molestie risus  ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis. </p>
+                    <ul>
+                        <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                        <li>Adipiscing ornare pellentesque mauris volutpat tortor vitae platea porta lacus. Lectus suspendisse nullam.</li>
+                    </ul>
+                    <button>See More</button>
+                </div>
+                <div class="perfect-place-vedio">
+                    <img src="./Images/mountain.png" alt="mountain">
+                </div>
+            </div>
+            <!-- perfect place part end  -->
+
+            <!-- newslatter part start  -->
+            <div class="newslatter-container d-none">
+                <div class="newslatterperfect-place-text">
+                    <4>Newsletter</4>
+                    <p>Get your daily dose of travel news & tips. Sign up today! </p>
+                    <form class="from2" action="">
+                        <input type="text" name="" id="">
+                        <input type="email" name="" id="">
+                        <input type="submit" value="Subscribe">
+                    </form>
+                    <button>See More</button>
+                </div>
+                <div class="newslatter-img">
+                    <div class="save-up">
+                        <p>Travel.com</p>
+                        <h3>Save up to 70% Travel.com</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- newslatter part end  -->
+        </div>
+    </main>
+    <!-- footer start  -->
+    <footer class="d-none">
+        <div class="container">
+            <div class="footer-logo">
+                <img src="./Images/logo.png" alt="">
+                <h2>Abdullah <span  class="logo-color">Travel</span></h2>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti vulputate. Leo erat maecenas vitae elementum ultricies nullam.</p>
+            <div class="social-icon">
+                <!-- ... -->
+            </div>
+            <hr>
+            <p>2017, All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- footer end  -->
 </body>
 </html>
