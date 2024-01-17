@@ -1,0 +1,189 @@
+
+
+/* mobail devices  */
+
+@media screen and (max-width:600px) {
+    .flex{
+        flex-direction: column;
+    }
+    .nav{
+        display: none;
+    }
+    .logo, .nav-container{
+        flex-direction: row;
+    }
+    .humbergar{
+        display: inline-block;
+    }
+
+
+    /* travel-container */
+
+    .travel-container h1{
+        margin-top: 50px;
+        font-size: 22px;
+    }
+    .travel-container p{
+        padding:0 30px;
+    }
+    button{
+        padding: 15px 35px;
+        background-color: var(--primary-color);
+        border-radius: 8px;
+        border: none;
+
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+        }
+    .t-btn, select{
+        min-width: 400px;
+    }
+    input{
+        min-width: 370px;
+    }
+    .t-btn .btn-icon{
+        padding: 5px;
+        margin-bottom: -10px;
+    }
+    .form input, .form select{
+        padding: 15px;
+        border-radius: 8px;
+        border: none;
+    }
+
+    /* main start  */
+
+    .popular-tours-container{
+        margin-top: 50px;
+    }
+    .popular-tour-details{
+        width: 50%;
+    }
+    .popular-tour-details h2{
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .popular-tour-details p{
+        margin-bottom: 25px;
+    }
+    .popular-tour-details ul{
+        padding: 0 100px 0 20px;
+    }
+
+    .popular-tour-img{
+        width: 50%;
+    }
+    .popular-tour-img img{
+        padding: 0 10px;
+    }
+
+    .destinations-part-container{
+        margin-top: 50px;
+        text-align: center;
+    }
+    .destinations-part-container h2{
+        margin-bottom: 25px;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    .destinations-part-container p{
+        padding: 0 200px;
+        margin-bottom: 50px;
+        line-height: 26px;
+    }
+    .destination-img{
+        margin-bottom: 20px;
+    }
+
+    .choose-us-container{
+        margin-top: 50px;
+    }
+    .choose-us-container h2{
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    .choose-us-container>p{
+        padding: 0 140px;
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .info1, .info2, .info3{
+        width: 50%;
+        padding: 20px;
+
+        border-radius: 8px;
+    }
+    .info-container2{
+        margin-top: 50px;
+    }
+    .info-container2 .info3{
+        margin: 0 auto;
+    }
+    .info1{
+        background: #FBB56333;
+    }
+    .info2{   
+        background: #29CEF633;
+    }
+    .info3{
+        background:  #FBB56333;
+    }
+
+    .info1 h2, .info2 h2, .info3 h2{
+        font-size: 24px;
+        font-weight: 800;
+    }
+    .info1 p, .info2 p, .info3 p{
+        padding-right: 30px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .popular-tour-img img{
+        padding: 0;
+    }
+    .popular-tour-details ul{
+        padding: 0 20px;
+    }
+    .destinations-part-container p, .choose-us-container>p{
+        padding: 0 25px;
+    }
+    .container h2, h3, h4 {
+        font-size: 20px;
+    }
+    .destination-img img{
+        width:max-content;
+    }
+    p{
+        font-size: 14px;
+    }
+    
+    .info1, .info2, .info3{
+        width: 100%;
+        padding: 20px;
+    }
+    .info-container2 .info3{
+        margin: 0;
+    }
+}
