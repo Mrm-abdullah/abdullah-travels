@@ -164,6 +164,9 @@ button{
 .destination-img{
     margin-bottom: 20px;
 }
+.destination-img div img{
+    width: 100%;
+}
 
 .choose-us-container{
     margin-top: 50px;
@@ -180,6 +183,10 @@ button{
     line-height: 26px;
     margin-bottom: 50px;
     text-align: center;
+}
+.info1 svg, .info2 svg, .info3 svg{
+    width: 50px;
+    height: 50px;
 }
 .info1, .info2, .info3{
     width: 50%;
@@ -210,27 +217,91 @@ button{
 .info1 p, .info2 p, .info3 p{
     padding-right: 30px;
 }
-.deals-dicount-container{}
+/* .deals-dicount-container{}
 .sartorini-tour1{}
 .card{}
 .sartorini-tour2{}
 
 .perfect-place-contai{}
-.perfect-place-text{}
+.perfect-place-text{} */
 
-.newslatter-container{}
-.newslatterperfect-place-text{}
-.from2{}
-.newslatter-img{}
-.save-up{}
+.newslatter-container{
+    margin-top: 80px;
+}
+.newslatterperfect-place-text{
+    width: 50%;
+    border-radius: 8px;
+    border: 1px solid var(--primary-color);
+    padding:30px 20px;
+}
+.newslatterperfect-place-text h2{
+    font-size: 24px;
+    font-weight: 800;
+}
+.newslatterperfect-place-text p{
+    line-height: 26px;
+    padding: 15px 25px 5px 0;
+}
+.from2 input{
+    display: block;
+    width: 90%;
+    padding: 15px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ebebf1;
+}
+.btn-sub{
+    margin-top: 15px;
+    padding: 10px;
+    width: 98%;
+}
+.newslatter-img{
+    width: 50%;
+    position: relative;
+    padding: 0px;
+}
+.newslatter-img img{
+    width: 100%;
+}
+.save-up{
+    position: absolute;
+    background-color: var(--primary-color);
+    padding:15px;
+    text-align: center;
+    border-radius: 10px;
+    rotate: -30deg;
+    right: 1%;
+    bottom: 15%;
+}
+.save-up h3{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 800;
+}
+.save-up p{
+    padding-top: 0;
+    color: #FFF;
+    font-size: 24px;
+}
+footer{
+    margin-top: 50px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer{
+    padding: 40px;
+    text-align: center;
+    width: 70%;
+}
+.footer-logo{
+    /* padding: 40px ; */
+    justify-content: center;
+}
 
-.footer-logo{}
-.logo-color{}
-.social-icon{}
-
-
-
-
+.social-icon{
+    justify-content: center;
+    padding: 25px 0;
+}
 
 
 .d-none{

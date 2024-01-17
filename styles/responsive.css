@@ -54,113 +54,20 @@
 
     /* main start  */
 
-    .popular-tours-container{
-        margin-top: 50px;
-    }
     .popular-tour-details{
-        width: 50%;
+        width: 100%;
     }
-    .popular-tour-details h2{
-        font-size: 40px;
-        font-weight: 800;
-    }
-    .popular-tour-details p{
-        margin-bottom: 25px;
-    }
-    .popular-tour-details ul{
-        padding: 0 100px 0 20px;
-    }
-
     .popular-tour-img{
-        width: 50%;
-    }
-    .popular-tour-img img{
-        padding: 0 10px;
+        width: 100%;
     }
 
-    .destinations-part-container{
-        margin-top: 50px;
-        text-align: center;
-    }
-    .destinations-part-container h2{
-        margin-bottom: 25px;
-        font-size: 40px;
-        font-weight: 800;
-    }
-    .destinations-part-container p{
-        padding: 0 200px;
-        margin-bottom: 50px;
-        line-height: 26px;
-    }
     .destination-img{
-        margin-bottom: 20px;
-    }
-
-    .choose-us-container{
-        margin-top: 50px;
-    }
-    .choose-us-container h2{
-        font-size: 40px;
-        font-weight: 800;
-        margin-bottom: 25px;
-        text-align: center;
-    }
-    .choose-us-container>p{
-        padding: 0 140px;
-        font-size: 16px;
-        line-height: 26px;
-        margin-bottom: 50px;
-        text-align: center;
-    }
-    .info1, .info2, .info3{
-        width: 50%;
-        padding: 20px;
-
-        border-radius: 8px;
-    }
-    .info-container2{
-        margin-top: 50px;
-    }
-    .info-container2 .info3{
         margin: 0 auto;
-    }
-    .info1{
-        background: #FBB56333;
-    }
-    .info2{   
-        background: #29CEF633;
-    }
-    .info3{
-        background:  #FBB56333;
+        margin-bottom: 20px;
+        width: 100%;
     }
 
-    .info1 h2, .info2 h2, .info3 h2{
-        font-size: 24px;
-        font-weight: 800;
-    }
-    .info1 p, .info2 p, .info3 p{
-        padding-right: 30px;
-    }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .popular-tour-img img{
+      .popular-tour-img img{
         padding: 0;
     }
     .popular-tour-details ul{
@@ -186,4 +93,32 @@
     .info-container2 .info3{
         margin: 0;
     }
+ 
+    .newslatterperfect-place-text{
+        width: 100%;
+    }
+    .newslatterperfect-place-text h2{
+        font-size: 20px;
+    }
+    .newslatterperfect-place-text p{
+        line-height: 16px;
+    }
+    .newslatter-img{
+        width: 100%;
+    }
+
+
+    
+.footer{
+    width:80%;
+}
+.footer-logo, .social-icon{
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+
+
+
 }
